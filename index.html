@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="">
+            <section class="section">
+                <h1 class="title">
+                    VUFF_Nhu cầu tham dự các hoạt động tại Hoa Kỳ trong khuôn khổ Diễn đàn Mùa thu 2024
+                </h1>
+            </section>
+
+            <section class="section">
+                <div class="label">
+                    <span>Tên doanh nghiệp</span>
+                </div>
+                <div>
+                    <input type="text" class="input" placeholder="Your answer" class="input-text" name="name"/>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="label">
+                    <span>Người đại diện - chức vụ</span>
+                </div>
+                <div>
+                    <input type="text" class="input" placeholder="Your answer" class="input-text" name="deputy"/>
+                </div>
+            </section>
+
+            <!-- sans fransisco -->
+            <section class="section">
+                <h1 class="title-2"> HOẠT ĐỘNG TẠI SAN FRANCISCO (25 - 26/10/2024)</h1>
+                <span class="sub-title">Với mỗi hoạt động được lựa chọn sau đây, Quý doanh nghiệp vui lòng cho biết số lượng thành viên tham gia hoạt động đó. </span>
+            </section>
+
+            <section class="section">
+                <div class="label">
+                    <span>1. Tối ngày 24/10 tại San Francisco, Quý doanh nghiệp có thể sắp xếp tham gia "Perfect Season 3: Unleashing Your Entrepreneurial Spirit" tại Sonesta Silicon Valley?</span>
+                </div>
+                <div>
+                    <div class="p-8">
+                        <input class="input" type="radio" name="sf-1.1" id="night-sans-francisco-yes"> <label for="night-sans-francisc">Yes</label>
+                        
+                        <br/>
+                        <div id="quantity">
+                            <label for="night-sans-francisc" class="p-8-f">Vui lòng cho biết số lượng thành viên tham dự hoạt động này? </label>
+                            <input class="input" type="text" name="sf-1.1-q" class="input-text"/>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    <div class="p-8">
+                        <input class="input" type="radio" name="sf-1.2" id="night-sans-francisco-no"> <label for="night-sans-francisc">No</label>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="label">
+                    <span>2. Ngày 25/10, tại San Francisco, Quý doanh nghiệp có nhu cầu tham gia hoạt động nào trong các hoạt động tùy chọn dưới đây? (được chọn nhiều hoạt động)
+                    </span>
+                </div>
+                <div>
+                    <div style="display: flex; flex-direction: column; padding: 8px 8px 8px 0px">
+                        <div class="p-8">
+                            <input class="input" type="checkbox" name="2-1" id="2-1"> <label for="2-1">Chuỗi hoạt động liên quan đến Bigtech (tham quan trụ sở của Google, Microsoft và Supermicro)</label>
+                            <div id="quantity">
+                                <label for="quantity" class="p-8-f">Vui lòng cho biết số lượng thành viên tham dự hoạt động này? </label>
+                                <input class="input" type="text" name="1-quantity" class="input-text"/>
+                            </div>
+                        </div>
+                        <div class="p-8">
+                            <input class="input" type="checkbox" name="2-2" id="2-2"> <label for="2-2">Kết nối với các chuỗi bán lẻ hàng đầu Hoa Kỳ (Walmart, Costco,...)</label>
+                            <div id="quantity">
+                                <label for="quantity" class="p-8-f">Vui lòng cho biết số lượng thành viên tham dự hoạt động này? </label>
+                                <input class="input" type="text" name="1-quantity" class="input-text"/>
+                            </div>
+                        </div>
+                        <div class="p-8">
+                            <input class="input" type="checkbox" name="2-3" id="2-3"> <label for="2-3">Thăm quan các trường Đại học nổi tiếng của Hoa Kỳ tại San Francisco (Stanford, UC Berkeley University, v.v)</label>
+                            <div id="quantity">
+                                <label for="quantity" class="p-8-f">Vui lòng cho biết số lượng thành viên tham dự hoạt động này? </label>
+                                <input class="input" type="text" name="1-quantity" class="input-text"/>
+                            </div>
+                        </div>
+                        <div class="p-8">
+                            <input class="input" type="checkbox" name="2-4" id="2-4"> <label for="2-4">Thăm quan các trường đại học hàng đầu trong lĩnh vực Y dược (Stanford Medicine, ...)</label>
+                            <div id="quantity">
+                                <label for="quantity" class="p-8-f">Vui lòng cho biết số lượng thành viên tham dự hoạt động này? </label>
+                                <input class="input" type="text" name="1-quantity" class="input-text"/>
+                            </div>
+                        </div>
+                        <div class="p-8">
+                            <input class="input" type="checkbox" name="2-5" id="2-5"> <label for="2-5">Trải nghiệm xe tự lái</label>
+                            <div id="quantity">
+                                <label for="quantity" class="p-8-f">Vui lòng cho biết số lượng thành viên tham dự hoạt động này? </label>
+                                <input class="input" type="text" name="1-quantity" class="input-text"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- new york -->
+            <section class="section">
+                <h1 class="title-2">HOẠT ĐỘNG TẠI NEW YORK (28- 29/10/2024)</h1>
+                <span class="sub-title">Với mỗi hoạt động được lựa chọn sau đây, Quý doanh nghiệp vui lòng cho biết số lượng thành viên tham gia hoạt động đó. </span>
+            </section>
+
+            <section class="section">
+                <div class="label">
+                    <span>1. Phiên buổi sáng 28/10, Quý doanh nghiệp có nhu cầu tham gia hoạt động nào trong các hoạt động tùy chọn dưới đây? </span>
+                </div>
+                <div>
+                    <div class="p-8">
+                        <input class="input" type="checkbox" name="1" id="night-sans-francisco-yes"> <label for="night-sans-francisc">Sáng 28/10 (09:00 - 11:00), tham gia phiên giao lưu, gặp gỡ với các doanh nghiệp, quỹ đầu tư, tổ chức Hoa Kỳ</label>
+                        
+                        <br/>
+                        <div id="quantity">
+                            <label for="night-sans-francisc" class="p-8-f">Vui lòng cho biết số lượng thành viên tham dự hoạt động này? </label>
+                            <input class="input" type="text" name="1-quantity" class="input-text"/>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    <div class="p-8">
+                        <input class="input" type="checkbox" name="1" id="night-sans-francisco-no" value="no"> <label for="night-sans-francisc">Sáng 28/10 (09:00 - 11:00), tham gia phiên chia sẻ - thảo luận về các cơ hội đầu tư cá nhân</label>
+                        <br/>
+                        <div id="quantity">
+                            <label for="night-sans-francisc" class="p-8-f">Vui lòng cho biết số lượng thành viên tham dự hoạt động này? </label>
+                            <input class="input" type="text" name="1-quantity" class="input-text"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="label">
+                    <span>2. Phiên buổi chiều 28/10, Quý doanh nghiệp có nhu cầu tham gia hoạt động nào trong các hoạt động tùy chọn dưới đây? </span>
+                </div>
+                <div>
+                    <div class="p-8">
+                        <input class="input" type="checkbox" name="1" id="night-sans-francisco-yes"> <label for="night-sans-francisc">Chiều 28/10 (14:00 - 15:30), tham gia phiên thảo luận bàn tròn về chính sách cho sự phát triển của Thành phố Hồ Chí Minh</label>
+                        
+                        <br/>
+                        <div id="quantity">
+                            <label for="night-sans-francisc" class="p-8-f">Vui lòng cho biết số lượng thành viên tham dự hoạt động này? </label>
+                            <input class="input" type="text" name="1-quantity" class="input-text"/>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    <div class="p-8">
+                        <input class="input" type="checkbox" name="1" id="night-sans-francisco-no" value="no"> <label for="night-sans-francisc">Chiều 28/10 (14:00 - 15:30), tham gia phiên thảo luận bàn tròn về chính sách cho sự phát triển của Thành phố Hồ Chí Minh</label>
+                        <br/>
+                        <div id="quantity">
+                            <label for="night-sans-francisc" class="p-8-f">Vui lòng cho biết số lượng thành viên tham dự hoạt động này? </label>
+                            <input class="input" type="text" name="1-quantity" class="input-text"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="label">
+                    <span>3. Phiên song song buổi chiều ngày 29/10, Quý doanh nghiệp có nhu cầu tham gia hoạt động nào trong các hoạt động tùy chọn dưới đây?</span>
+                </div>
+                <div>
+                    <div class="p-8">
+                        <input class="input" type="checkbox" name="1" id="night-sans-francisco-yes"> <label for="night-sans-francisc">Chiều 29/10 (14:00 – 15:30), tham gia phiên song song về thương mại với các Doanh nghiệp Hoa Kỳ</label>
+                        
+                        <br/>
+                        <div id="quantity">
+                            <label for="night-sans-francisc" class="p-8-f">Vui lòng cho biết số lượng thành viên tham dự hoạt động này? </label>
+                            <input class="input" type="text" name="1-quantity" class="input-text"/>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    <div class="p-8">
+                        <input class="input" type="checkbox" name="1" id="night-sans-francisco-no" value="no"> <label for="night-sans-francisc">Chiều 29/10 (14:00 – 15:30), tham gia phiên song song về cơ hội hợp tác trong lĩnh vực Y Dược và Khoa học đời sống</label>
+                        <br/>
+                        <div id="quantity">
+                            <label for="night-sans-francisc" class="p-8-f">Vui lòng cho biết số lượng thành viên tham dự hoạt động này? </label>
+                            <input class="input" type="text" name="1-quantity" class="input-text"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="label">
+                    <span>Ngày 28-29/10 tại New York, Quý doanh nghiệp có nhu cầu tham gia hoạt động nào trong các hoạt động tùy chọn dưới đây? </span>
+                </div>
+                <div>
+                    <div class="p-8">
+                        <input class="input" type="checkbox" name="1" id="night-sans-francisco-yes"> <label for="night-sans-francisc">Sáng 28/10 (09:00 - 11:00), tham gia phiên giao lưu, gặp gỡ với các doanh nghiệp, quỹ đầu tư, tổ chức Hoa Kỳ</label>
+                        
+                        <br/>
+                        <div id="quantity">
+                            <label for="night-sans-francisc" class="p-8-f">Vui lòng cho biết số lượng thành viên tham dự hoạt động này? </label>
+                            <input class="input" type="text" name="1-quantity" class="input-text"/>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    <div class="p-8">
+                        <input class="input" type="checkbox" name="1" id="night-sans-francisco-no" value="no"> <label for="night-sans-francisc">Sáng 28/10 (09:00 - 11:00), tham gia phiên chia sẻ - thảo luận về các cơ hội đầu tư cá nhân</label>
+                        <br/>
+                        <div id="quantity">
+                            <label for="night-sans-francisc" class="p-8-f">Vui lòng cho biết số lượng thành viên tham dự hoạt động này? </label>
+                            <input class="input" type="text" name="1-quantity" class="input-text"/>
+                        </div>
+                    </div>
+
+                    <div class="p-8">
+                        <input class="input" type="checkbox" name="1" id="night-sans-francisco-no" value="no"> <label for="night-sans-francisc">Chiều 28/10 (14:00 - 15:30), tham gia phiên thảo luận bàn tròn về chính sách cho sự phát triển của Thành phố Hồ Chí Minh</label>
+                        <br/>
+                        <div id="quantity">
+                            <label for="night-sans-francisc" class="p-8-f">Vui lòng cho biết số lượng thành viên tham dự hoạt động này? </label>
+                            <input class="input" type="text" name="1-quantity" class="input-text"/>
+                        </div>
+                    </div>
+
+                    <div class="p-8">
+                        <input class="input" type="checkbox" name="1" id="night-sans-francisco-no" value="no"> <label for="night-sans-francisc">Chiều 28/10 (14:00 - 15:30), tham gia phiên giao lưu, gặp gỡ với các doanh nghiệp, quỹ đầu tư, tổ chức Hoa Kỳ</label>
+                        <br/>
+                        <div id="quantity">
+                            <label for="night-sans-francisc" class="p-8-f">Vui lòng cho biết số lượng thành viên tham dự hoạt động này? </label>
+                            <input class="input" type="text" name="1-quantity" class="input-text"/>
+                        </div>
+                    </div>
+
+                    <div class="p-8">
+                        <input class="input" type="checkbox" name="1" id="night-sans-francisco-no" value="no"> <label for="night-sans-francisc">Chiều 29/10 (14:00 – 15:30), tham gia phiên song song về thương mại với các Doanh nghiệp Hoa Kỳ</label>
+                        <br/>
+                        <div id="quantity">
+                            <label for="night-sans-francisc" class="p-8-f">Vui lòng cho biết số lượng thành viên tham dự hoạt động này? </label>
+                            <input class="input" type="text" name="1-quantity" class="input-text"/>
+                        </div>
+                    </div>
+
+                    <div class="p-8">
+                        <input class="input" type="checkbox" name="1" id="night-sans-francisco-no" value="no"> <label for="night-sans-francisc">Chiều 29/10 (14:00 – 15:30), tham gia phiên song song về cơ hội hợp tác trong lĩnh vực Y Dược và Khoa học đời sống</label>
+                        <br/>
+                        <div id="quantity">
+                            <label for="night-sans-francisc" class="p-8-f">Vui lòng cho biết số lượng thành viên tham dự hoạt động này? </label>
+                            <input class="input" type="text" name="1-quantity" class="input-text"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+<style>
+
+    .wrapper {
+        font-family: Roboto;   
+        width: 100%;
+        background-color: #eceef8;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #quantity {
+        display: none;
+    }
+
+    #quantity.show {
+        display: block;
+    }
+
+    .section {
+        padding: 24px;
+        background-color: white;
+        width: 640px;
+        margin: 12px 0;
+        border-radius: 10px;
+        border: 1px solid rgb(218, 220, 224);
+    }
+    
+
+    .title {
+        font-weight: 400;
+        font-size: 24pt;
+        line-height: 1.25;
+        letter-spacing: 0;
+    }
+
+    .title-2 {
+        font-size: 12pt;
+        line-height: 1.5;
+        letter-spacing: 0;
+    }
+
+    .sub-title {
+        font-size: 11pt;
+        line-height: 1.5;
+        letter-spacing: 0;
+    }
+
+    .input-text {
+        width: 295.2px;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: .2px;
+        line-height: 20px;
+        color: rgb(32, 33, 36);
+        border-color: transparent;
+        border-bottom-color: #e0e0e0;
+    }
+
+    .input-text:focus {
+        width: 295.2px;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: .2px;
+        line-height: 20px;
+        color: rgb(32, 33, 36);
+        border-color: transparent;
+        border-bottom-color: #1e6c93;
+    }
+
+    .input-text:focus-visible {
+        width: 295.2px;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: .2px;
+        line-height: 20px;
+        color: rgb(32, 33, 36);
+        border-color: transparent;
+        border-bottom-color: #1e6c93;
+        outline: none;
+    }
+
+    .label {
+        margin-bottom: 16px;
+    }
+    .label span {
+        font-weight: 400;
+        font-size: 12pt;
+        line-height: 1.5;
+        letter-spacing: 0;
+    }
+
+    .p-8 {
+        padding: 8px 8px 8px 0;
+    }
+
+    .p-8-f {
+        display: block;
+        padding: 8px 8px 8px 8px;
+    }
+</style>
+
+
+</html>
